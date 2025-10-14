@@ -1,0 +1,87 @@
+# ---------------------------------------
+# Python Arcade Collection (.gitignore)
+# ---------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# uv environment + lock/cache
+.uv/
+uv.lock
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# OS / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Media / assets (optional – remove if you want to track them)
+# background.jpg
+# music.mp3
+# hit.wav
+
+# ---------------------------------------
+# End of .gitignore
+# ---------------------------------------
+```
+
+---
+
+### ✅ Notes:
+
+* Keeps your `uv` environment (`.venv/`, `.uv/`, and `uv.lock`) **out of Git**, since those are system-specific.
+* Keeps your repo **clean** for sharing or pushing to GitHub.
+* If you **want to track game assets** (e.g. `background.jpg`, `music.mp3`), just **uncomment** those lines.
+
